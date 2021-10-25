@@ -1,0 +1,3 @@
+Ideas:
+-Chatbot tool and use ML to give good help
+-Some form of analytics on the services and how to improve

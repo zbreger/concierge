@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Concierge Home Integrative Care</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+            <link rel="icon" href="static/images/concierge-home-integrative-care-squarelogo-1540431769517 (1).png">
+                <link rel= "stylesheet" type= "text/css" href= "styles/style.css">
+                <link rel= "stylesheet" type= "text/css" href= "styles/team.css">
+                <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src = "images/concierge-home-integrative-care-squarelogo-1540431769517__1_-removebg-preview.png" width = "100" height = "100" alt = "">
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href = "/index.html"><button type="button" class="btn btn-link text-dark"><b>Home</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-link dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Services</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/overview.html">Overview</a>
+                        <a class="dropdown-item" href="/tc.html">Traditional Care</a>
+                        <a class="dropdown-item" href="/ic.html">Integrative Care</a>
+                        <a class="dropdown-item" href="/nc.html">Nursing Care</a>
+                        <a class="dropdown-item" href="/t.html">Technology</a>
+                      </div>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a href = "/team.html"><button type="button" class="btn btn-link text-dark"><b>Team</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                      <button class="btn btn-link text-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Contact</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/contact.html"><b>Contact Us</b></a>
+                        <a class="dropdown-item" href="/employment.html"><b>Employment</b></a>
+                      </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "container" style = "margin-bottom: 100px">
+        <div class="separator"><h1>&emsp;Private Duty Home Care Services Overview&emsp;</h1></div>
+        <p><br /></p>
+        <div class = "row">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Live - Ins</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/19f7a440-94ae-4a3c-ba94-1a492efdceec.png/:/cr=t:0%25,l:0%25,w:100%25,h:74.85%25/rs=w:388,h:194,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />We offer trained live-in professionals <br /> for those that require around the clock care assistance.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Hourly Living Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/ecf4021c-0c96-4998-b0a0-1260fcf95aa5.png/:/cr=t:3.25%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Our professional care staff provides a <br /> wide range of services for those that<br />need home care on a daily basis.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Personal Care Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/8b992c26-0ff1-4089-b4f6-2cf595cdb57c.png/:/cr=t:0%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Care services for people that need<br /> assistance bathing, dressing, and other<br />personal activities.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+        </div>
+        
+        <div class = "row top-buffer">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Cooking/Feeding Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/a252c7de-3ccd-4e3e-8e2b-99501aa5f32f.png/:/cr=t:25.15%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Meal preparation adhering to diet-specific guidelines and assistance in eating/drinking.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Laundry/Housecleaning</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/ea6ee50f-d223-493c-8cd6-cf29822243cc.png/:/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />In-home laundry services and light house work to keep clients in a clean and organized environment.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Ambulatory Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/98503432-c5e5-43b5-8667-c1af1f1fa04e.png/:/cr=t:4.56%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Assistance with ambulation both inside<br />and outside of the home.<br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+        </div>
+        
+        <div class = "row top-buffer">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Exercise Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/97a4d0ba-27b3-4a96-895c-6bb4ed9ada0f.png/:/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Professionally tailored exercise plans<br />  to keep our clients happy and healthy.<br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Continence Assistance</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/5bd10e9c-c3d7-4c64-afd6-65cf31b2c221.png/:/cr=t:0%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Personal care focused on preserving <br />client  dignity and self-esteem.<br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Medication/Appointments</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/48aee31d-c428-43d3-b375-80d78b3cd207.png/:/cr=t:8.26%25,l:0%25,w:100%25,h:73.1%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Managing medications and medical<br /> appointments, including travel<br /> arrangements.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+        </div>
+        
+        <div class = "row top-buffer">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Physical Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/08804299-b791-4581-a521-0a5b56aa3c66.png/:/cr=t:11.06%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Short and long-term physical therapy to<br />get clients feeling and moving their best.<br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Psychosocial Counseling</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/a0d89d99-b8dc-45b6-8e40-04d24a957243.png/:/cr=t:0%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Mental health services to care for the<br />mind as well as the body.<br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Art Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/e0f80433-1107-43fc-8b63-bd42f7abfb25.png/:/cr=t:18.88%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />A selection of creative activities to<br />stimulate the imagination and increase quality of life.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+        </div>
+        
+        <div class = "row top-buffer">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Customized Nutritional Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/9944d5aa-db41-4e90-b096-2bd63d26164f.png/:/cr=t:6.84%25,l:0%25,w:100%25,h:78.62%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Customized personalized nutritional<br />meal program to maximize overall<br />health.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Customized Vitamin Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/757d7ff3-091a-4f32-a885-54d35567c704.png/:/cr=t:0%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Customized vitamin analysis to create<br />a high quality personalized vitamin that<br />can be shipped to your home.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Companion Animal Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/fc858172-e21a-4195-aa53-cc9f8768a4ee.png/:/cr=t:13.02%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Visits from companion animals<br />improve emotional and nervous system<br />health.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+
+            </div>
+        </div>
+        
+        <div class = "row top-buffer">
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Horticultural Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/087c02e6-31b5-407d-9693-bb1e16ae0da6.jpeg/:/cr=t:5.87%25,l:0%25,w:100%25,h:74.96%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Therapeutic horticultural activities that<br />can help decrease stress levels,<br />increase movement and agility, and<br />provide for greater socialization.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center">
+                <h5>Music Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/e92a63b8-e12e-494b-b33a-0029782751ee.png/:/cr=t:11.06%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Stimulate mind, body, and spirit with<br />customizable musical arrangements.<br /><br /><br /></p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-12 text-center rounded-pill">
+                <h5>Biocentric Lighting Therapy</h5>
+                <img src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/0df9dac6-5511-4837-b186-90648f9d1971.png/:/cr=t:14.32%25,l:0%25,w:100%25,h:74.85%25/rs=w:776,h:388,m,cg:true" class = "fit-image">
+                    <div class = "overviewP"><p><br />Natural lighting products which<br />recreate natural sun light to improve<br />our clients’ energy, sleep, moods, and<br />productivity.</p></div>
+                    <a href="tc.html" class="btn btn-primary rounded-pill">Find Out More!</a>
+
+            </div>
+        </div>
+    </div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>We are proud to provide comprehensive home care with experienced caregivers in Chicago and the Chicagoland area. Whether you need a live-in or a part-time caregiver, rest assured knowing that our staff is trained to perform with competency and compassion to provide you with our signature client concierge experience.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>448 Lake Cook Rd a6, Deerfield, IL 60015
+            <br/>+ (847) 861-0044
+        </div>
+    <div>
+    <div class="footer-copyright text-center">Copyright © 2019 Concierge Home Integrative Care - All Rights Reserved.</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
+ 

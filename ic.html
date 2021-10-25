@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Concierge Home Integrative Care</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+            <link rel="icon" href="static/images/concierge-home-integrative-care-squarelogo-1540431769517 (1).png">
+                <link rel= "stylesheet" type= "text/css" href= "styles/style.css">
+                <link rel= "stylesheet" type= "text/css" href= "styles/team.css">
+                <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src = "images/concierge-home-integrative-care-squarelogo-1540431769517__1_-removebg-preview.png" width = "100" height = "100" alt = "">
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href = "/index.html"><button type="button" class="btn btn-link text-dark"><b>Home</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-link dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Services</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/overview.html">Overview</a>
+                        <a class="dropdown-item" href="/tc.html">Traditional Care</a>
+                        <a class="dropdown-item" href="/ic.html">Integrative Care</a>
+                        <a class="dropdown-item" href="/nc.html">Nursing Care</a>
+                        <a class="dropdown-item" href="/t.html">Technology</a>
+                      </div>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a href = "/team.html"><button type="button" class="btn btn-link text-dark"><b>Team</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                      <button class="btn btn-link text-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Contact</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/contact.html"><b>Contact Us</b></a>
+                        <a class="dropdown-item" href="/employment.html"><b>Employment</b></a>
+                      </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "container">
+        <div class="separator greybk"><h1>&emsp;Integrative Services&emsp;</h1></div>
+        <p class = "greybk spaceneg"><br /></p>
+        <div class = "row tc greybk lrpad">
+            <div class = "col-lg-8 col-md-8 col-sm-12 greybk stp">
+            <h5 style = "text-align: left">Enhancing Quality of Life</h5>
+            <p>&emsp;Our industry unique integrative services include physical, mental, and creative therapies designed to stimulate, engage and improve the mind, body, and soul.</p>
+            <p><br /><b>Art Therapy&mdash;</b> Scientific evidence supports that art enhances brain function and improves mood. We offer a selection of art-based therapies that provide patients with a creative outlet to express themselves and keep their minds curious.</p>
+            <p><br /><b>Physical Therapy&mdash;</b> Our professional physical therapists use the latest techniques and equipment to create rehabilitation programs that fit individual needs.  Services include gait analysis and training, assistance with ADLs and exercise programs, balance and strength training, myofascial release, pain management with dry needling, safety orientation and fall prevention, and mobility assistive device use training.</p>
+            <p><br /><b>Psychosocial Counseling&mdash;</b> Not all well-being is related to physical health so caring for the mental and emotional needs of patients is one of our priorities.  Our Psychology Doctorate therapist is trained to help our clients achieve their mental health goals. We strongly encourage all of our new clients to undergo a comprehensive psychosocial analysis so that we can best customize our services uniquely to each client and their families helping to achieve the highest level of satisfaction.</p>
+            <p><br /><b>Horticulture Therapy&mdash;</b> Interaction with nature provides many positive benefits in all areas of well-being. Our horticultural therapist will develop personalized therapeutic horticultural activities that can help decrease stress levels, increase movement and agility, and provide for greater socialization.</p>
+            <p><br /><b>Customized Vitamin Analysis&mdash;</b> As we age, our ability to obtain the necessary vitamins from our diet becomes more difficult. We offer a comprehensive customized vitamin analysis then create a high quality personalized vitamin that can be shipped to your home.</p>
+            <p><br /><b>Customized Nutritional Analysis&mdash;</b> We can help create a personalized nutritional meal program.</p>
+            <p><br /><b>Music Therapy&mdash;</b> Our music therapist stimulates our clients’ mind, body, and spirits with professional music therapy sessions with live instruments and can suggest customized musical arrangements that can be introduced into the home catered to each individual’s needs. </p>
+            <p><br /><b>Companion Animal Therapy&mdash;</b> Animal pets have long been known to provide companionship and to stimulate the nervous and emotional systems. Our certified animal companion specialist visits are available to cheer up our clients’ homes.</p>
+            <p><br /><b>Biocentric Lighting&mdash;</b> We offer home analysis and installation of our natural lighting products which recreate natural sun light improving our clients’ energy, sleep, moods, and productivity.<br /><br /></p>
+        </div>
+        <div class = "col lg-4 col-md-4 col-sm-12 greybk">
+            <img class = "tcimg img-responsive" src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/97a4d0ba-27b3-4a96-895c-6bb4ed9ada0f.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:800,cg:true">
+        </div>
+    </div>
+    </div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>We are proud to provide comprehensive home care with experienced caregivers in Chicago and the Chicagoland area. Whether you need a live-in or a part-time caregiver, rest assured knowing that our staff is trained to perform with competency and compassion to provide you with our signature client concierge experience.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>448 Lake Cook Rd a6, Deerfield, IL 60015
+            <br/>+ (847) 861-0044
+        </div>
+    <div>
+    <div class="footer-copyright text-center">Copyright © 2019 Concierge Home Integrative Care - All Rights Reserved.</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+

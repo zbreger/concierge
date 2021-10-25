@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Concierge Home Integrative Care</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+            <link rel="icon" href="static/images/concierge-home-integrative-care-squarelogo-1540431769517 (1).png">
+                <link rel= "stylesheet" type= "text/css" href= "styles/style.css">
+                <link rel= "stylesheet" type= "text/css" href= "styles/team.css">
+                <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <a class="navbar-brand" href="/index.html">
+            <img src = "images/concierge-home-integrative-care-squarelogo-1540431769517__1_-removebg-preview.png" width = "100" height = "100" alt = "">
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href = "/index.html"><button type="button" class="btn btn-link text-dark"><b>Home</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-link dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Services</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/overview.html">Overview</a>
+                        <a class="dropdown-item" href="/tc.html">Traditional Care</a>
+                        <a class="dropdown-item" href="/ic.html">Integrative Care</a>
+                        <a class="dropdown-item" href="/nc.html">Nursing Care</a>
+                        <a class="dropdown-item" href="/t.html">Technology</a>
+                      </div>
+                    </div>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a href = "/team.html"><button type="button" class="btn btn-link text-dark"><b>Team</b></button></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                      <button class="btn btn-link text-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                        Contact</b>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/contact.html"><b>Contact Us</b></a>
+                        <a class="dropdown-item" href="/employment.html"><b>Employment</b></a>
+                      </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class = "container">
+        <div class="separator greybk"><h1>&emsp;Traditional Home Care Services&emsp;</h1></div>
+        <p class = "greybk spaceneg"><br /></p>
+    <div class = "row tc greybk lrpad">
+        <div class = "col-lg-8 col-md-8 col-sm-12 greybk stp">
+            <h5 style = "text-align: left">Comprehensive Services</h5>
+            <p>&emsp;We offer an array of home care services administered by trained professionals.  Our services can be tailored to every client's unique situation so that they can receive the best care while staying in their home.  As an alternative to a hospital or nursing facility setting, home care services are often less expensive and just as effective with the added benefit of keeping the client in a familiar and comfortable environment.  In addition to our in home care services we also offer our same services in independent, assisted, and other retirement facilities.</p>
+            <p><br /><b>Daily Living Assistance&mdash;</b> The activities of daily living (ADLs) include bathing, dressing, transferring, toileting, eating, and walking - those that need assistance with all or some of these activities can schedule daily visits from our care team.</p>
+            <p><br /><b>Live - Ins&mdash;</b> Our live-in caregivers provide 24 hour assistance with all of the above Daily Living Assistance (ADL) services but designed for those clients requiring prolonged comfort and safety.</p>
+            <p><br /><b>Ambulatory Assistance&mdash;</b> Assistance with ambulation both inside and outside of the home.  Help getting in and out of bed, chairs, bathrooms, showers, and vehicles.</p>
+            <p><br /><b>Cooking/Feeding Assistance&mdash;</b> We make sure our clients are getting the nutrition they need to live healthy lives.  Our home care aides prepare meals according to nutritional needs and assist in eating/drinking.</p>
+            <p><br /><b>Exercising Assistance&mdash;</b> Keeping fit is an important part of staying physically, mentally, and emotionally healthy. Our care staff can design an exercise program that meets your needs and help you perform them regularly.</p>
+            <p><br /><b>Transportation Assistance&mdash;</b> We arrange for transportation to and from medical appointments and other common destinations such as the grocery store, shopping mall, and senior center.</p>
+            <p><br /><b>Laundry/House Cleaning&mdash;</b> We can do laundry and a variety of other light house work understanding that a clean orderly home enhances one’s well-being.</p>
+        </div>
+        <div class = "col lg-4 col-md-4 col-sm-12 greybk">
+            <img class = "tcimg img-responsive" src = "https://img1.wsimg.com/isteam/ip/cfccf792-4fb8-4309-924d-d32ba0645f4d/61198645-f300-4ae5-a0c9-d08a4f536627.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:800,cg:true">
+        </div>
+    </div>
+    </div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>We are proud to provide comprehensive home care with experienced caregivers in Chicago and the Chicagoland area. Whether you need a live-in or a part-time caregiver, rest assured knowing that our staff is trained to perform with competency and compassion to provide you with our signature client concierge experience.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>448 Lake Cook Rd a6, Deerfield, IL 60015
+            <br/>+ (847) 861-0044
+        </div>
+    <div>
+    <div class="footer-copyright text-center">Copyright © 2019 Concierge Home Integrative Care - All Rights Reserved.</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>

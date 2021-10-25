@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./flask-mail",
+        "./flask-wtf/src"
+    ]
+}
